@@ -11,8 +11,9 @@
 
          var numero1 =document.getElementById("txtNumero1").value;
          var numero2 =document.getElementById("txtNumero2").value;
-         var totalsuma = parseInt(numero1) + parseInt(numero2);
-             alert("el total de la suma es\n \"" + totalsuma + "\"");
+         var numero3 =document.getElementById("txtNumero3").value;
+         var totalsuma = parseInt(numero1) + parseInt(numero2) parseInt(numero3);
+             alert("La nota final es\n \"" + totalsuma + "\"");
               }
 
              
@@ -24,6 +25,7 @@
   <form>
     <input type="text" id="txtNumero1" />
     <input type="text" id="txtNumero2" />
+    <input type="text" id="txtNumero3" />
     <input type="button" onclick="suma();" value="calcular" />
   
    
